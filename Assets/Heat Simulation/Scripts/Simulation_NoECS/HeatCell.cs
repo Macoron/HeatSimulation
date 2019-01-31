@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace HeatSimulation.NoECS
 {
-    public struct HeatCell : IComponentData
+    public struct HeatCell
     {
         public float temparture;
     }
